@@ -1,0 +1,17 @@
+section{
+    height: 600px;
+    width: 600px;
+    display: flex;
+    background-color: aqua;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+div{
+    background-color: azure;
+}
+.item3{
+    align-self: flex-end;
+    justify-content: flex-start;
+    flex-flow: column-reverse wrap;
+    margin: 20px;
+}

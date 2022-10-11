@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+header{
+    background-color: #5700cb;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 100%;
+    color: white;
+}
+main{
+    width: 100%;
+}
+.titulo{
+    font-size: 22px;
+    padding: 10px;
+   
+}
+.titulo-forte{
+    font-weight: bold;
+}
+.titulo-img{
+    width: 90px;
+}
+h1,h2{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    font-size: 25px;
+}
+.banner{
+    width: 100%;
+}
+.limite-area{
+    max-width: 1024px;
+}
+section{
+    margin: 0 auto;
+}
+p{
+    text-align: left;
+    line-height: 32px;
+}
+.quem-somos p:last-of-type{
+    background-color:#9154e3;
+    display: inline;
+    padding: 10px 5px;
+}
+
+table{
+    width: 100%;
+    margin: 20px 0;
+    background: #dfdfdf;
+}
+th,td{
+    padding: 6px;
+    color: #fff;
+}
+thead{
+    background: #5a5a5a;
+}
+tbody tr:nth-last-of-type(even){
+    background: #5700cb;
+}
+tbody tr:nth-last-of-type(odd){
+    background: #9154e3;
+}

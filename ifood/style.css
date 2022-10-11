@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    width: 800px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    font-weight: ;
+    
+}
+.topo{
+    color: #ff1700;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 20px;
+}
+.div-box{
+    background-color: #f1f1f1;
+    width: 700px;
+    border:3px solid #ff1700;
+    margin: 50px auto;
+    position: relative;
+    padding: 30px 30px 60px ;
+}
+.div-box .fonte{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px 20px;
+}
+.div-box p{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px 20px;
+}
+.div-box .index{
+    text-align: center;
+    font-weight: 800;
+    position: absolute;
+    top: -35px;
+    background-color:  #ff1700;
+    color:#fff700;
+    width: 70px;
+    height: 50px;
+    border-radius: 50%;
+    padding-top: 20px;
+}
+.botao{
+    background-color: #ff1700;
+    color: #fff700;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -30px;
+    left: 500px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.topsdaso{
+    text-align: ;
+   padding: ;
+   border-radius: ;
+   font-size: ;
+   margin;
+   text-align: center;
+   background-color: ;
+   height: ;
+   font-family: ;
+   visibility: 100%;
+   text-decoration: ;
+   width: ;
+
+}
+div{
+
+  
+    margin:5px 13px 10px 22px
+    
+      
+    padding:5px 20px 15px 10px
+    
+    }
+    
+    div {
+
+  
+        margin:5px 22px 13px 10px
+        
+          
+        paddind:5px 10px 20px 15px 
+        
+        }
+        
+Tenho interesse na oferta de estágio, e achei muito interessante a forma que a empresa tem de atuar no mercado, queria saber aonde é a inscrição e como eu faço para participar 
+
+/*.boxNoticia p {
+
+  
+    position: absolute;
+    
+      
+    left: 20px;
+    
+      
+    width: 600px:
+    
+      
+    height: 300px;
+    
+      
+    box-sizing: border-box;
+    
+      
+    padding: 5px 10px;
+    
+      
+    font-size: 14px;
+    
+      
+    border-radius: 7px;
+    
+      
+    line-height: 32px;
+    
+      
+    box-shadow: 10px 22px 10px;
+    
+      
+    margin: 40px auto;
+    
+      
+    text-decoration: underline;
+    
+      
+    }
+*/    
