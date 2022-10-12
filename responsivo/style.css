@@ -6,9 +6,10 @@
   
   .conteudo-dispositivo {
     display: none;
-    text-align: center;
+    text-align: right;
   }
   /* FIM REGRAS CSS COMUNS À TODOS OS DISPOSITIVOS */
+  
   /* INICIO REGRAS CSS REFERENTES À PRIMEIRA VERSÃO */
 @media only screen and (max-width: 480px) {
 

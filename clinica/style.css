@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Source Sans Pro',sans-serif;
+}
+
+/*HEADER*/
+header{
+    width: 100%;
+    background-color: #00cad1;
+}
+header a img{
+    width: 100px;
+}
+
+/*MENU*/
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.limite-area{
+    width: 1024px;
+    margin: 0 auto;
+}
+.menu nav{
+    margin-left: 15px;
+    padding: 10px;
+}
+.menu nav a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+.menu nav a:hover{
+    color: grey;
+}
+/*BANNER*/
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    background-image: url("/clinica/assets/recepcao.png");
+    background-size: cover;
+
+}
+.banner div h2{
+    color: #FFF;
+    font-size: 50px;
+}
+
+
+
+/*INFO*/
+.info{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #0000008c;
+
+}
+.info h3{
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+.info p{
+    width: 55%;
+    text-align: center;
+}
+/*AREA LISTA*/
+.area-lista{
+    display: flex;
+    width:100%;
+}
+.area-lista .area-container1 {
+    align-items: center;
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;   
+}
+.area-lista .area-container2 {
+    color: #0000008c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+.area-lista .area-container2 h3{
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+/*CONTAINER IMG*/
+.container-img{
+    display: flex;
+    flex-wrap: wrap;
+}
+.figure-cont{
+    text-transform: uppercase;
+    margin: 20px;
+    border-radius: 3px;
+    width: calc(100%/ 3 - 40px);
+    box-shadow: 0px 1px 10px rgb(0 0 0 / 50%);
+    margin-bottom: 50px;
+}
+figure img{
+    width: 100%;
+}
+figure figcaption{
+    height: 25px;
+    text-align: center;
+}
+.container-bt{
+    text-align: center;
+    
+}
+.container-bt a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: #00cad1;
+    border-radius: 10px;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color :#0d6e71;
+    padding: 10px;
+}
+footer img {
+    width: 100px;
+}
+footer .info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+}
+/*MOBILE*/
+@media only screen and (min-width:320px) and (max-width:425px){
+
+}
+
+/*TABLET*/
+@media only screen and (min-width:426px) and (max-width:768px) {
+    
+}
+
+/*DESKTOP*/
+@media only screen and (min-width:769px) {
+    
+}
