@@ -19,12 +19,14 @@ header a img{
 
 /*MENU*/
 .menu{
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
 }
 .limite-area{
-    width: 1024px;
+    max-width: 1024px;
     margin: 0 auto;
 }
 .menu nav{
@@ -58,7 +60,6 @@ header a img{
 
 /*INFO*/
 .info{
-    height: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -76,14 +77,16 @@ header a img{
 }
 /*AREA LISTA*/
 .area-lista{
-    display: flex;
     width:100%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .area-lista .area-container1 {
+    
     align-items: center;
-    width: 40%;
     display: flex;
-    justify-content: flex-end;   
 }
 .area-lista .area-container2 {
     color: #0000008c;
@@ -120,6 +123,7 @@ figure figcaption{
 }
 .container-bt{
     text-align: center;
+    margin-bottom: 20px;
     
 }
 .container-bt a{
@@ -148,8 +152,40 @@ footer .info{
     height: 80px;
 }
 /*MOBILE*/
-@media only screen and (min-width:320px) and (max-width:425px){
+@media (max-width:425px){
+    .menu{
+        
+        display: flex;
+        flex-direction: column;
+    }
+    .menu-links{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        
+        width: calc(100% - 40px);
+        border-top: 1px solid rgba(0, 0, 0, 0.226);
+    }
+    .banner{
+        height: 200px;
 
+    }
+    .banner div {
+        text-align: left;
+        width: 95%;
+    }
+    .banner div h2{
+        font-size: 22px;
+    }
+    #sobre .area-container1{
+        display: none;
+    }
+    #sobre .area-container2 h3{
+        font-size: 12px;
+    }
+    .limite-area{
+        font-size: 12px;
+    }
 }
 
 /*TABLET*/
