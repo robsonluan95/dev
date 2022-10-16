@@ -88,9 +88,10 @@
 }
 .menu-links nav{
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    justify-content: flex-start;
+    align-items:stretch;
     height: 100%;
+    flex-direction:initial;
 }
 .menu-links nav a{
     padding: 10px;
@@ -100,8 +101,10 @@
 @media (max-width:480px){
     .menu-responsivo{
         display:block;
+        
     }
     .logo{
         display: none;
+        
     }
 }
