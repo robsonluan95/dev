@@ -186,6 +186,12 @@ footer .info{
     .limite-area{
         font-size: 12px;
     }
+    .container-bt{
+    }
+    .figure-cont{
+        width: 80%;
+        margin: 10px auto;
+    }
 }
 
 /*TABLET*/
