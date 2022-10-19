@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+}
+.area-limite{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.grupo-1{
+    display: flex;
+    flex-direction: column;
+}
