@@ -76,22 +76,18 @@
 }
 .logo-img{
     width: 50%;
-    background-color: #39399a;
 }
 .link-logo img{
     width: 50px;
 }
 .menu-links{
-    background-color: aqua;
     width: 50%;
     
 }
 .menu-links nav{
     display: flex;
-    justify-content: flex-start;
-    align-items:stretch;
     height: 100%;
-    flex-direction:initial;
+    justify-content: space-between;
 }
 .menu-links nav a{
     padding: 10px;
