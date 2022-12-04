@@ -1,0 +1,26 @@
+*{
+}
+
+.limite{
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(/lucas.jpeg);
+    background-size: cover;
+}
+h1{
+    background-color: #24252546;
+    color: blueviolet;
+    padding: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+}
+button{
+    background-color: blueviolet;
+    border: none;
+    padding: 50px;
+}
